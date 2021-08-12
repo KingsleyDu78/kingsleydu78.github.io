@@ -1,0 +1,47 @@
+.text-over-image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+.portfolio-page-title {
+    margin: 50px;
+    font-size: 200px;
+}
+
+.portfolio-text-container {
+    margin: calc(15px + 50px);
+    font-size: 35px;
+}
+
+@media screen and (min-width: 1951px) {
+    .mobile-fallback {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1950px) {
+    .text-over-image-container {
+        display: none;
+    }
+    .portfolio-page-title {
+        margin: 35px;
+        font-size: calc(35px + 4vw);
+    }
+    .portfolio-text-container {
+        margin: 35px;
+        font-size: calc(10px + 2vw);
+    }
+}
+
+.portfolio-img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1000px;
+}

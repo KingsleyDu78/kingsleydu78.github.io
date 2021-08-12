@@ -1,0 +1,171 @@
+body {
+    margin: 0px;
+}
+
+
+.circle-container {
+    background-color: #fe5758;
+    border-radius: 50%;
+    width: 1200px;
+    height: 1200px;
+}
+
+.circle {
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    height: 1000px;
+    width: 800px;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.main-title {
+    font-family: 'Staatliches', cursive;
+    font-size: 100px;
+}
+
+.main-text {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+.face-img {
+    border-radius: 50%;
+    border: 20px solid white;
+}
+
+.other {
+    margin-top: -550px;
+    background-color: white;
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#footer {
+    padding: 25px;
+    padding-top: 23px;
+    text-align: center;
+    background-color: #545454;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.title {
+    font-size: 100px;
+}
+
+.subtitle {
+    font-size: 50px;
+    color: gray;
+}
+
+body.preload .navbar-link {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+}
+
+.custom-card {
+    box-shadow: 0 0 10px gray;
+    width: 90%;
+    max-width: 1600px;
+    border-radius: 10px;
+    padding: 50px;
+    transition: 0.5s;
+}
+
+.custom-card:hover {
+    box-shadow: 0 0 20px gray;
+    transform: scale(1.05);
+}
+
+.custom-rounded {
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1800px) {
+    .custom-card {
+        width: 80%;
+    }
+}
+
+.custom-card-image {
+    width: 200px;
+}
+
+.name-text {
+    font-size: 75px;
+}
+
+.custom-card-text {
+    font-size: 20px;
+    color: #5e5e5e;
+    line-height: 1.5;
+}
+
+.custom-card-table td {
+    padding: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+    .message-desktop {
+        display: none;
+    }
+    .message-mobile-2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .message-desktop {
+        display: none;
+    }
+    .message-mobile-1 {
+        display: none;
+    }
+    .message-mobile-2 {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1101px) {
+    .message-mobile-1 {
+        display: none;
+    }
+    .message-mobile-2 {
+        display: none;
+    }
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+textarea {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+  }
