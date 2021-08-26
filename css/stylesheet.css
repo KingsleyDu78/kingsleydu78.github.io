@@ -182,7 +182,13 @@ textarea {
 }
 
 @media screen and (max-width: 1040px) {
-    .homepage-desktop {
+    .homepage-desktop-1 {
+        display: none;
+    }
+    .homepage-desktop-2 {
+        display: none;
+    }
+    .homepage-desktop-3 {
         display: none;
     }
     .homepage-body-desktop {
