@@ -169,3 +169,24 @@ textarea {
     text-align: center;
     padding-top: 10px;
   }
+
+@media screen and (min-width: 1041px) {
+    .homepage-body-desktop {
+        margin-top: -1330px;
+        padding: 50px;
+        background-color: white;
+    }
+    .homepage-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .homepage-desktop {
+        display: none;
+    }
+    .homepage-body-desktop {
+        padding: 50px;
+        background-color: white;
+    }
+}
